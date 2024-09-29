@@ -1,0 +1,19 @@
+# Fake Store Landing Page
+
+## Overview
+This is a simple landing page that fetches product data from the Fake Store API and displays it in a card format. Users can search for products and click on them to view more details in a modal.
+
+## Features
+- Fetches product data from the Fake Store API.
+- Displays products in a responsive grid layout.
+- Users can search for products by title.
+- Clicking on a product opens a modal showing product details and quantity.
+
+## Technologies Used
+- HTML5
+- Tailwind CSS for styling
+- JavaScript for API handling and interactivity
+
+## Setup
+1. Clone the repository.
+2. Open the `index.html` file in a web browser.

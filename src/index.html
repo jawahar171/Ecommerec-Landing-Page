@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>FAKE STORE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body class=" bg-gray-900">
+    <div class="container ">
+        <div class="text-7xl text-center font-bold text-green-800">
+            <h1>Fake Store</h1>
+        </div>
+
+        <!-- search bar -->
+        <div class="mb-3 mt-6 text-center">
+            <input type="text" id="searchInput" class="w-2/5 p-3 bg-yellow-200 text-red-600 text-center border rounded-lg" placeholder="Search products...">
+        </div>
+
+        <!-- Product Card -->
+         <div id="productContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"></div>
+
+        <!-- Modal -->
+        <div id="productModal" class="fixed inset-0 bg-gray-900 bg-opacity-50 flex justify-center items-center hidden">
+            <div class="bg-rose-100 p-2 rounded-lg w-1/6 h-5/6">
+                <span id="closeModal" class="cursor-pointer float-right text-gray-500">X</span>
+                <h2 id="modalTitle" class="text-2xl font-bold mb-4"></h2>
+                <img id="modalImage" src="https://fakestoreapi.com/products" alt="" class="w-full mb-4">
+                <p id="modalDescription" class="mb-4 text-pink-900"></p>
+                <p><strong>Quantity:</strong> <span id="modalQuantity"></span></p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
